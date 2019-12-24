@@ -1,6 +1,7 @@
 # LSTM_MVAE_Wavelet
 Execution of LSTM_MVAE:
-1.	Execute: python <Name of the script file>
+1.	Execute: python MVAE_Mamography.py
+
 The script files are: MVAE_Mamography.py
 		      MVAE_NSLKDD_attack_1_Mixing.py
 		      MVAE_Pendigit.py
