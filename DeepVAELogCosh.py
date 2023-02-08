@@ -106,8 +106,8 @@ def create_lstm_vae(input_dim,
     x = Input(shape=(timesteps, input_dim,))
 
     # LSTM encoding
-    h1 = LSTM(intermediate_dim+20, return_sequences=True, activation='relu')(x)
-    h = LSTM(intermediate_dim, activation='relu')(h1)
+    h1 = LSTM(32, return_sequences=True, activation='relu')(x)
+    h = LSTM(16, activation='relu')(h1)
 
     # VAE Z layer
     z_mean = Dense(latent_dim, activation='relu')(h)
@@ -124,8 +124,8 @@ def create_lstm_vae(input_dim,
     z = Lambda(sampling, output_shape=(latent_dim,))([z_mean, z_log_sigma])
     
     # decoded LSTM layer
-    decoder_h = LSTM(intermediate_dim, return_sequences=True, activation='relu')
-    decoder_h1 = LSTM(intermediate_dim+20, return_sequences=True, activation='relu')
+    decoder_h = LSTM(16, return_sequences=True, activation='relu')
+    decoder_h1 = LSTM(32, return_sequences=True, activation='relu')
     decoder_mean = LSTM(input_dim, return_sequences=True, activation='tanh')
 
     h_decoded = RepeatVector(timesteps)(z)
