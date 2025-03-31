@@ -5,4 +5,6 @@ https://ieee-dataport.org/documents/ics-dataset-smart-grid-anomaly-detection
 4. (A Srivastav) Anomaly Detection, Localization and Classification Using Drifting Synchrophasor Data Streams https://ieeexplore.ieee.org/document/9335975
 5. Real-time Anomaly Detection and Classification in Streaming PMU Data https://arxiv.org/pdf/1911.06316
 6. Deep Learning (CNN) Model to Detect Various Synchrophasor Data Anomalies https://www.osti.gov/servlets/purl/1764478
+7. Ehsani Convolutional autoencoder anomaly detection and classification based on distribution PMU measurements  https://digital-library.theiet.org/doi/full/10.1049/gtd2.12424
+8. Anomaly detection and classification in power system state estimation: Combining model-based and data-driven methods https://www.sciencedirect.com/science/article/abs/pii/S2352467723001248
 
