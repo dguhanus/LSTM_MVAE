@@ -7,4 +7,6 @@ https://ieee-dataport.org/documents/ics-dataset-smart-grid-anomaly-detection
 6. Deep Learning (CNN) Model to Detect Various Synchrophasor Data Anomalies https://www.osti.gov/servlets/purl/1764478
 7. Ehsani Convolutional autoencoder anomaly detection and classification based on distribution PMU measurements  https://digital-library.theiet.org/doi/full/10.1049/gtd2.12424
 8. Anomaly detection and classification in power system state estimation: Combining model-based and data-driven methods https://www.sciencedirect.com/science/article/abs/pii/S2352467723001248
+9. GROUP MASKED AUTOENCODER BASED DENSITY ESTIMATOR FOR AUDIO ANOMALY DETECTION https://dcase.community/documents/workshop2020/proceedings/DCASE2020Workshop_Giri_66.pdf
+10. Awesome Masked Autoencoders: https://github.com/EdisonLeeeee/Awesome-Masked-Autoencoders
 
